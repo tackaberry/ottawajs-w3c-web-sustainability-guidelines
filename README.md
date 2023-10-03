@@ -7,7 +7,7 @@
 
 
 
-Slides deployed [here](https://ottawajs-w3c-web-sustainability-guidelines.tackaberry.dev/).
+Slides deployed [here](http://ottawajs-w3c-web-sustainability-guidelines.tackaberry.dev/).
 
 
 
