@@ -23,5 +23,5 @@ jobs:
     - id: 'upload'
       uses: 'google-github-actions/upload-cloud-storage@v1'
       with:
-        path: 'public'
+        path: 'public/**'
         destination: 'ottawajs-w3c-web-sustainability-guidelines'
