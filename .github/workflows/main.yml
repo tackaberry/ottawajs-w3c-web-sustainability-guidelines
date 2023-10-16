@@ -24,5 +24,11 @@ jobs:
       uses: 'google-github-actions/upload-cloud-storage@v1'
       with:
         path: 'public'
-        destination: 'ottawajs-w3c-web-sustainability-guidelines/ottawajs-w3c-web-sustainability-guidelines'
+        destination: 'ottawajs-w3c-web-sustainability-guidelines'
         parent: false
+
+    - id: 'invalidate'
+      name: 'Invalidate CDN'
+      run: gcloud compute url-maps invalidate-cdn-cache tackaberry-dev --async --path "/*"
+
+                  
