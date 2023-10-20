@@ -1,29 +1,37 @@
-const ORANGE = "#db4437";
-const YELLOW = "#f4b400";
-const MAROON = "#6b393f";
-const BLUE = "#1f3442";
-const BRIGHT_BLUE = "#08b2e3";
-const GREEN = "#0f9d58";
-const LIGHT_GREEN = "#6cc24a";
-const BLACK = "#000";
-const WHITE = "#FFF";
-const LIGHT_GREY = "#fafafa";
-const DARK_GREY = "#333";
-const GREY = "#737373";
-const BEIGE = "#f9f7f1";
+const BLUE = "#4285f4";
+const RED = "#ea4335";
+const YELLOW = "#fbbc04";
+const GREEN = "#34a853";
+const PINK = "#f538a0";
+
+const DARK_BLUE = "#174ea6";
+const DARK_RED = "#a50e0e";
+const DARK_YELLOW = "#e37400";
+const DARK_GREEN = "#0d652d";
+const DARK_PINK = "#9c166b";
+
+const LIGHT_GREY = "#f1f3f4";
+const DARK_GREY = "#3c4043";
+const GREY = "#9aa0a6";
+
+const BLACK = "#000000";
+const WHITE = "#ffffff";
+
 
 export {
-  BEIGE,
-  ORANGE,
-  YELLOW,
-  MAROON,
   BLUE,
-  BRIGHT_BLUE,
+  RED,
+  YELLOW,
   GREEN,
-  LIGHT_GREEN,
-  BLACK,
-  WHITE,
-  GREY,
+  PINK,
+  DARK_BLUE,
+  DARK_RED,
+  DARK_YELLOW,
+  DARK_GREEN,
+  DARK_PINK,
   LIGHT_GREY,
   DARK_GREY,
+  GREY,
+  BLACK,
+  WHITE
 };

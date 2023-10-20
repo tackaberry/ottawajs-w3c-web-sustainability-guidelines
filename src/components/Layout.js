@@ -1,6 +1,7 @@
 // example Layout.js
 import React from "react";
 import styled from "styled-components";
+import "./google-fonts.css";
 
 const DivLight = styled.div`
   a:focus,
@@ -39,7 +40,7 @@ const DivDark = styled.div`
 
 export default ({ children, color, image, light, half, twocolumn, leftTitle, serif, courier, green, left}) => {
 
-  let font = "Nunito, Helvetica, Arial, Sans-Serif"
+  let font = "Open Sans, Arial, Sans-Serif"
   if(serif){
     font = "Times New Roman"
   }else if(courier){

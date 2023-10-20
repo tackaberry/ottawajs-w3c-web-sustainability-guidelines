@@ -2,21 +2,28 @@ export { default as theme } from "./components/Theme";
 import Layout from "./components/Layout";
 import Footnote from "./components/Footnote";
 import Progress from "./components/Progress";
+import Icon from "./components/Icon";
+import Font from "./components/Font";
 import {
-  ORANGE,
+ BLUE,
+  RED,
   YELLOW,
-  MAROON,
-  BLUE,
-  BRIGHT_BLUE,
   GREEN,
-  LIGHT_GREEN,
-  BLACK,
-  WHITE,
-  GREY,
+  PINK,
+  DARK_BLUE,
+  DARK_RED,
+  DARK_YELLOW,
+  DARK_GREEN,
+  DARK_PINK,
   LIGHT_GREY,
   DARK_GREY,
-  BEIGE,
+  GREY,
+  BLACK,
+  WHITE
 } from "./components/Colours.js";
+
+import BG1 from "./images/bg1.jpg";
+import BG2 from "./images/bg2.jpg";
 
 import Brett from "./images/brett.jpg";
 import Journey from "./images/journey.png";
@@ -57,13 +64,14 @@ import Journey from "./images/journey.png";
 
 ---
 
-<Layout color={BLUE}>
+<Layout color={DARK_BLUE}>
 
 <Split>
 
 <Image src={Brett} style={{ height: "600px", width: "600px" }} />
 
-# About me
+
+# About me 
 
 help people do awesome things with technology
 
@@ -77,15 +85,7 @@ use technology make the world a better place
 
 ---
 
-<Layout color={LIGHT_GREY} light>
-
-
-
-</Layout>
-
----
-
-<Layout color={ORANGE}>
+<Layout color={DARK_GREEN}>
 
 <div style={{width:"900px", fontColor:"white"}}>
 
@@ -98,7 +98,7 @@ use technology make the world a better place
 
 ---
 
-<Layout color={LIGHT_GREY} light >
+<Layout image={BG2}>
 
 # Agenda
 
@@ -115,7 +115,7 @@ use technology make the world a better place
 
 <Layout color={WHITE} light >
 
-# My Journey
+# <Icon name="conversion_path" /> My Journey 
 
 <Image src={Journey} style={{ height: "400px", width: "1200px" }} />
 
@@ -125,34 +125,159 @@ use technology make the world a better place
 
 ---
 
+<Layout color={DARK_BLUE} >
 
-<Layout color={LIGHT_GREEN} >
+# Architecture decisions we make
+# have an <Font color={YELLOW}>impact</Font>
+# on our environment
 
-# 2. Context
+</Layout>
+
+---
+
+<Layout color={DARK_BLUE} >
+
+# There are things that 
+# <Font color={YELLOW}>software engineers</Font>
+# can do to help
+
+</Layout>
+
+---
+
+<Layout color={DARK_BLUE} >
+
+# There are things that 
+# <Font color={YELLOW}>designers</Font>
+# can do to help
+
+</Layout>
+
+---
+
+<Layout color={DARK_BLUE} >
+
+# There are things that 
+# <Font color={YELLOW}>product owners</Font>
+# can do to help
+
+</Layout>
+
+---
+
+<Layout color={DARK_BLUE} >
+
+# There are things that 
+# <Font color={YELLOW}>you</Font>
+# can do to help
+
+</Layout>
+
+---
+
+<Layout color={BLACK} image={BG1} >
+
+# Context
 
 </Layout>
 
 
 ---
 
-<Layout color={LIGHT_GREEN} >
+<Layout color={GREEN} >
 
 # The Climate Context
 
-## 1. 
-
+## <Icon name="looks_one" /> 1.5 ºC
 
 </Layout>
 
+<Notes>
+
+The Paris agreement gave us the threshold to restrict global warming to no more than 1.5 degrees Celsius to mitigate the worst impacts of climate change
+
+</Notes>
+
+
 ---
 
+
+<Layout color={BLUE} >
+
+# The Climate Context
+
+## <Icon name="looks_two" /> Emissions growth
+
+</Layout>
+
+<Notes>
+
+The digital industry is responsible for between 2 and 5 % of global emissions	
+
+</Notes>
+
+
+---
+
+
+<Layout color={RED} >
+
+# The Climate Context
+
+## <Icon name="looks_3" /> Carbon Footprint of ICT
+
+</Layout>
+
+<Notes>
+
+If the internet were a country it would be one of the top 5 polluters.
+
+</Notes>
+
+---
+
+
+<Layout color={DARK_YELLOW} >
+
+# The Climate Context
+
+## <Icon name="looks_4" /> Continued Growth 
+
+</Layout>
+
+<Notes>
+
+Since 2010, the number of internet users has more than doubled. Global traffic has increased by 25 times. 
+
+</Notes>
+
+---
+
+
+<Layout color={DARK_PINK} >
+
+# The Climate Context
+
+## <Icon name="looks_5" /> More Content
+
+</Layout>
+
+<Notes>
+
+And what’s more, page size more than doubled in some cases. 
+
+</Notes>
+
+
+
+---
 <Layout color={LIGHT_GREY} light >
 
 </Layout>
 
 ---
 
-<Layout color={LIGHT_GREEN} >
+<Layout color={GREEN} >
 
 </Layout>
 
@@ -180,6 +305,6 @@ use technology make the world a better place
 
 - https://github.com/tackaberry
 
-- [This Presentation](http://ottawajs-w3c-web-sustainability-guidelines.tackaberry.dev/)
+- [This Presentation](https://ottawajs-w3c-web-sustainability-guidelines.tackaberry.dev/)
 
 </Layout>
