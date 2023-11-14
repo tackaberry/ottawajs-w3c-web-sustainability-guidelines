@@ -75,6 +75,29 @@ import WebsiteCarbon from "./images/websitecarbon.png";
 
 ---
 
+<Layout color={DARK_GREEN}>
+
+<div style={{width:"900px", fontColor:"white"}}>
+
+# Web Sustainability
+
+</div>
+
+</Layout>
+
+<Notes>
+
+Maybe youve heard the term- all jobs are climate jobs. 
+
+I want to help you understand how your work as web developers and designers can have a positive impact on the environment. 
+
+Im going to start off with a little bit of my journey, the context, and then we’ll get into the new web sustainability guidelines, and then finish off with some practical ways you can start.
+
+
+</Notes>
+
+---
+
 <Layout color={DARK_BLUE}>
 
 <Split>
@@ -94,27 +117,13 @@ use technology make the world a better place
 
 </Layout>
 
----
-
-<Layout color={DARK_GREEN}>
-
-<div style={{width:"900px", fontColor:"white"}}>
-
-# Web Sustainability
-
-</div>
-
-</Layout>
-
 <Notes>
 
-# Agenda
+I'm Brett Tackaberry. 
 
-1. Why are we here?
-2. Context
-3. Guidelines
-4. Web and Cloud Sustainability
+I’m a principal architect at Google Cloud Canada.  I help people do awesome things with technology.   And right now, Im helping govt and the public sector do more in the cloud. 
 
+A number of years into my career, I started to do a little bit extra to connect with the community - outside of my job .  I ran hackathons, contributed to building community - all around bringing innovation and technology to social sector. 
 
 </Notes>
 
@@ -130,8 +139,8 @@ use technology make the world a better place
 
 <Notes>
 
-This talk is secretly an introduction to a part of me that I want to continue to explore and grow.  The context to this is important because these guidelines aren’t the whole story. 
-
+When I was working at a company in town called Rebel, I was responsible for the technology behind hosting 100s of thousands of websites and more.  We experiemented with a few elements of sustainability - we made a few decisions that would result in less carbon footprint. For example, when AWS launched in Montreal, we launched this new location and set the default location to Canada. Montreal data centres are powered with green energy - so, this had an impact. This kick off more green initiatives with the team. For me, it inspired me to really evaluate how I can use my experience and focus to work on climate.  I dove right in, learned a tonne, I moved to work with a company building enivronment and civic focused apps, and yes, now at google. But along the way contributing more to how we can contribute to a more sustainable internet.  
+I'm not an expert, but I'm going to share what I've learned so far.
 
 </Notes>
 
@@ -142,6 +151,12 @@ This talk is secretly an introduction to a part of me that I want to continue to
 # Context
 
 </Layout>
+
+<Notes>
+
+First, let’s talk about the context.
+
+</Notes>
 
 ---
 
@@ -163,33 +178,17 @@ The Paris agreement gave us the threshold to restrict global warming to no more 
 ---
 
 
-<Layout color={BLUE} >
-
-# The Climate Context
-
-## <Icon name="looks_two" /> Emissions growth
-
-</Layout>
-
-<Notes>
-
-The digital industry is responsible for between 2 and 5 % of global emissions	
-
-</Notes>
-
-
----
-
-
 <Layout color={RED} >
 
 # The Climate Context
 
-## <Icon name="looks_3" /> Carbon Footprint of ICT
+## <Icon name="looks_2" /> Carbon Footprint of ICT
 
 </Layout>
 
 <Notes>
+
+The digital industry is responsible for between 2 and 5 % of global emissions.  And with massive growth in AI, IoT,  we'll see it grow to well over 10% within the next 10 years. 
 
 If the internet were a country it would be one of the top 5 polluters.
 
@@ -202,7 +201,7 @@ If the internet were a country it would be one of the top 5 polluters.
 
 # The Climate Context
 
-## <Icon name="looks_4" /> Continued Growth 
+## <Icon name="looks_3" /> Continued Growth 
 
 </Layout>
 
@@ -239,7 +238,7 @@ And what’s more, page size more than doubled in some cases.
 
 <Notes>
 
-My journey to understanding how I can be a positive force for our world has lead me here, working on how to make the internet and IT more sustainable.  But it isn’t my, or our, whole job - it’s a fundamental part - like security, or performance, or openess might be.  So, onwards. 
+My journey to understanding how I can be a positive force for our world has lead me here, working on how to make the internet and IT more sustainable.  But it isn’t my, or our, whole job - it’s a fundamental part - like security, or performance, or openess might be.  
 
 </Notes>
 
@@ -315,20 +314,6 @@ Let's talk about the W3C Web Sustainability Guidelines.
 
 <Layout>
 
-### W3C launched Draft 1.0 of the Web Sustainability Guidelines in September 2023.
-
-</Layout>
-
-<Notes>
-
-The Web Sustainability Guidelines (WSG) 1.0 explains how to design and implement digital products and services that put people and the planet first. The guidelines are best practices based on measurable, evidence-based research; aimed at end-users, web workers, stakeholders, tool authors, educators, and policymakers.
-
-</Notes>
-
----
-
-<Layout>
-
 # Who is the W3C?
 
 The World Wide Web Consortium (W3C) develops standards and guidelines to help everyone build a web based on the principles of accessibility, internationalization, privacy and security.
@@ -337,7 +322,21 @@ The World Wide Web Consortium (W3C) develops standards and guidelines to help ev
 
 <Notes>
 
-I would hazard a guess most of you are at least aware of W3C or the world wide web consortium.  Not to diminish all their other work, but their Web Content Accessibility Guidelines are referenced all over the world.  The public sector team will know them well as all digital public services need to be WCAG compliant thru federal, provincial, and municipal regulations. Google has clear policies and tooling for accessibility, based on WCAG. 
+I would hazard a guess most of you are at least aware of W3C or the world wide web consortium.  Not to diminish all their other work, but their Web Content Accessibility Guidelines are referenced all over the world.  
+
+</Notes>
+
+---
+
+<Layout>
+
+### W3C launched Draft 1.0 of the Web Sustainability Guidelines in September 2023.
+
+</Layout>
+
+<Notes>
+
+The Web Sustainability Guidelines (WSG) 1.0 explains how to design and implement digital products and services that put people and the planet first. The guidelines are best practices based on measurable, evidence-based research; aimed at end-users, web workers, stakeholders, tool authors, educators, and policymakers.
 
 </Notes>
 
@@ -367,7 +366,6 @@ And also carbon traps - like you and me - and all the other factors that go in t
 <Layout light image={SlideMarket} >
 
 <SlideTitle>Audience</SlideTitle>
-
 
 </Layout>
 
@@ -440,8 +438,6 @@ And this guideline has 2 success criteria:  Use batch processing, and perhaps ru
 
 Theres Impact, Effort, benefits. GRI reporting alignment.  Examples and resources. 
 
-On the reporting, GRI is the main, if not one of a few, global reporting standards for ESG metrics.  By aligning these standards with a global standard, organizations can use digital product reporting to roll up to org-level reporting.  And have real meaningful impact through aligning with these guidelines. 
-
 </Notes>
 
 ---
@@ -487,16 +483,16 @@ Example: 2.26 Analyze The Performance Of The Visitor Journey
 - Building performance and sustainability testing into CI/CD, and operationalizing performance measurement
 - Building for security 
 
-https://bundlephobia.com/
-
-https://pkg-size.dev/
-
 </Layout>
 
 <Notes>
 
 Example: 3.17 Manage Dependencies Appropriately
 …JavaScript … can cause very high emissions in terms of CPU load due to the rendering process…  check for unused dependencies,  keep dependencies up to date
+
+https://bundlephobia.com/
+
+https://pkg-size.dev/
 
 
 </Notes>
@@ -552,12 +548,217 @@ Software Carbon Intensity considers power consumed (server and client) plus embe
 
 ---
 
+
+<Layout>
+
+# Using the Guidelines
+
+- Resources and links in the repo
+- Quick reference
+
+</Layout>
+
+<Notes>
+
+The guidelines are constructed in way that makes it fairly easy to adopt and use.  There are a number of resources and links in the repo. 
+
+Theres a quick reference guide that works like a checklist. 
+
+</Notes>
+
+
+---
+
+
+<Layout color={DARK_RED}>
+
+# 1. Measure and experiment
+
+- Measure consumption of your software
+- Lighthouse - Google Chrome Dev Tools
+- Website Carbon - Measure the carbon footprint of your website
+- Carbon sense - GCP's carbon footprint tool
+- Cloud Carbon Footprint - Open source tool to measure carbon footprint of your cloud infrastructure
+- Expand FinOps to include GreenOps
+
+</Layout>
+
+<Notes>
+
+If you're just getting started, your first step will be an assessment. You can't improve what you don't measure.   There are a number of tools that can help you understand the carbon impact of your software.  
+
+You might first start to look at CPU, memory, storage usage. Then you will want to take a step further to understand power consumption.
+
+Your cloud providers will have the rudiments of usage reporting and you will have already integrated this into your FinOps dashboard. You can take this a step further and integrate carbon reporting into your FinOps dashboard.  This is called GreenOps.  
+
+GCP has a simple tool called Carbon Sense that will give you a rough estimate of the carbon footprint of your GCP projects.  It's a great place to start. AWS carbon footprint tool is fairly basic too.
+
+
+</Notes>
+
+---
+
+<Layout color={DARK_RED}>  
+
+
+<Split>
+
+<Image src={Lighthouse} style={{ height: "350px", width: "600px" }} />
+
+
+# Lighthouse
+
+- Google Chrome Dev Tools
+- Measure performance, accessibility, best practices, SEO, and PWA
+
+
+</Split>
+
+</Layout>
+
+<Notes>
+
+On the client side...
+
+Lighthouse is a tool built into Google Chrome Dev Tools that will give you a view of the performance of your website.  It will give you a score for performance, accessibility, best practices, SEO.  This is a great tool to help you understand the impact of your website and to help you make decisions about how to optimize it.
+
+</Notes>
+
+---
+
+<Layout color={DARK_RED}>  
+
+
+<Split>
+
+<Image src={WebsiteCarbon} style={{ height: "450px", width: "500px" }} />
+
+
+# WebsiteCarbon.com
+
+</Split>
+
+</Layout>
+
+<Notes>
+
+WebsiteCarbon.com is a tool that will give you a view of the carbon footprint of your website.  
+
+My tackaberry.dev site, as you saw on the lighthouse view in the last slide too, is set up well.  A SSG website, deployed to GCP Cloud Storage, with a CDN in front of it is a very efficient website.  
+
+</Notes> 
+
+
+---
+
+<Layout color={DARK_RED}>  
+
+
+<Split>
+
+<Image src={WebsiteCarbon} style={{ height: "450px", width: "500px" }} />
+
+
+# Cloud Carbon Footprint
+
+</Split>
+
+</Layout>
+
+<Notes>
+
+Cloud Carbon Footprint is an open source tool that will give you a more detailed view of your cloud infrastructure.  It's a great place to start. It takes a bit of work to get it set up, but it's worth it. It works from Cost and Usage Reports (CUR) that are downloaded and transformed or you can integrate directly.  It will give you a detailed view of your cloud infrastructure and the carbon footprint of each component.  It will also give you a view of the carbon footprint of your cloud infrastructure over time.  This is a great tool to help you understand the impact of your cloud infrastructure and to help you make decisions about how to optimize it.
+
+</Notes> 
+
+---
+
+
+<Layout color={DARK_RED}>
+
+# 2. Education and awareness
+
+- Resources in repo
+- Green Software Foundation has great training
+- Find some allies around the office
+
+</Layout>
+
+<Notes>
+
+</Notes>
+
+---
+
+<Layout color={DARK_RED}>
+
+# 3. Software and Infrastructure
+
+- Find the easy wins
+- Green Hosting
+- Eliminate dark data
+- Optimize front end
+
+</Layout>
+
+<Notes>
+
+</Notes>
+
+---
+
+<Layout color={DARK_RED}>
+
+# 4. Integrate into CI/CD
+
+- Continuous improvement
+
+</Layout>
+
+<Notes>
+
+</Notes>
+
+---
+
+<Layout color={DARK_RED}>
+
+# 5. Modernize
+
+- Product
+- org
+- Refactor
+
+</Layout>
+
+<Notes>
+
+</Notes>
+
+---
+
+<Layout>
+
+# Cloud native sustainability
+
+- Nov 28, 2023
+- Data, Security, CI/CD, Open-source, K8s optimization
+- Talking next week
+
+</Layout>
+
+<Notes>
+
+
+</Notes>
+
+---
+
 <Layout light color={WHITE}>
 
 <Split>
 
 <Image src={CAT} style={{ height: "600px", width: "600px" }} />
-
 
 # ClimateAction.tech 
 
