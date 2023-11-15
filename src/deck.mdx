@@ -38,6 +38,8 @@ import CatJourney from "./images/cat-journey.png";
 import Lighthouse from "./images/lighthouse.png";
 import W3C from "./images/w3c.png";
 import WebsiteCarbon from "./images/websitecarbon.png";
+import QrCode from "./images/qrcode.png";
+
 
 <Footer>
 
@@ -45,7 +47,7 @@ import WebsiteCarbon from "./images/websitecarbon.png";
 
 </Footer>
 
-<Layout color={DARK_GREY}>
+<Layout>
 
 | Key                                | Description           |
 | ---------------------------------- | --------------------- |
@@ -55,7 +57,13 @@ import WebsiteCarbon from "./images/websitecarbon.png";
 | Option + O                         | Toggle Overview Mode  |
 | Option + G                         | Toggle Grid Mode      |
 
+<div style={{display:"flex", marginTop:"50px", padding:"50px"}}>
+
 [This presentation on github](https://github.com/tackaberry/ottawajs-w3c-web-sustainability-guidelines)
+
+<Image src={QrCode} style={{ marginLeft:"50px", height: "200px", width: "200px" }} />  
+
+</div>
 
 </Layout>
 
@@ -73,21 +81,18 @@ import WebsiteCarbon from "./images/websitecarbon.png";
 
 </Layout>
 
+
 ---
 
 <Layout color={DARK_GREEN}>
 
-<div style={{width:"900px", fontColor:"white"}}>
-
 # Web Sustainability
-
-</div>
 
 </Layout>
 
 <Notes>
 
-Maybe youve heard the term- all jobs are climate jobs. 
+All jobs are climate jobs. 
 
 I want to help you understand how your work as web developers and designers can have a positive impact on the environment. 
 
@@ -123,7 +128,7 @@ I'm Brett Tackaberry.
 
 I’m a principal architect at Google Cloud Canada.  I help people do awesome things with technology.   And right now, Im helping govt and the public sector do more in the cloud. 
 
-A number of years into my career, I started to do a little bit extra to connect with the community - outside of my job .  I ran hackathons, contributed to building community - all around bringing innovation and technology to social sector. 
+A while back I spent I put a lot of effort in to building community helping to bring technology to the social sector.  I ran hackathons, ran tech4good, contributed to civic tech. This was and is important to me. 
 
 </Notes>
 
@@ -139,7 +144,24 @@ A number of years into my career, I started to do a little bit extra to connect 
 
 <Notes>
 
-When I was working at a company in town called Rebel, I was responsible for the technology behind hosting 100s of thousands of websites and more.  We experiemented with a few elements of sustainability - we made a few decisions that would result in less carbon footprint. For example, when AWS launched in Montreal, we launched this new location and set the default location to Canada. Montreal data centres are powered with green energy - so, this had an impact. This kick off more green initiatives with the team. For me, it inspired me to really evaluate how I can use my experience and focus to work on climate.  I dove right in, learned a tonne, I moved to work with a company building enivronment and civic focused apps, and yes, now at google. But along the way contributing more to how we can contribute to a more sustainable internet.  
+More recently I have been spending my time finding ways to put my effort in to helping the climate crisis. 
+
+When I was working at a company in town called Rebel, I started to introduce sustainability and green concepts into our offering. If you're not familiar we were a web hosting company, amongst other things. 
+
+We made a few decisions that would result in less carbon footprint. 
+
+For example, when AWS launched in Montreal, we launched new locations and set the default to Canada. 
+
+Montreal data centres are powered with green energy - so, this had an impact. 
+
+This kicked off more green initiatives with the team.
+
+For me, it inspired me to really evaluate how I can use my experience to work on climate.  
+
+
+I dove right in, learned a tonne, I moved to work with a company building enivronment and civic focused apps, and yes, now at google. But along the way contributing more to how we can build to a more sustainable internet.  
+
+
 I'm not an expert, but I'm going to share what I've learned so far.
 
 </Notes>
@@ -172,6 +194,8 @@ First, let’s talk about the context.
 
 The Paris agreement gave us the threshold to restrict global warming to no more than 1.5 degrees Celsius to mitigate the worst impacts of climate change
 
+So, we have to act now
+
 </Notes>
 
 
@@ -182,13 +206,13 @@ The Paris agreement gave us the threshold to restrict global warming to no more 
 
 # The Climate Context
 
-## <Icon name="looks_2" /> Carbon Footprint of ICT
+## <Icon name="looks_two" /> Carbon Footprint of ICT is Subtantial
 
 </Layout>
 
 <Notes>
 
-The digital industry is responsible for between 2 and 5 % of global emissions.  And with massive growth in AI, IoT,  we'll see it grow to well over 10% within the next 10 years. 
+The digital industry is responsible for between 2 and 5 % of global emissions. 
 
 If the internet were a country it would be one of the top 5 polluters.
 
@@ -201,46 +225,32 @@ If the internet were a country it would be one of the top 5 polluters.
 
 # The Climate Context
 
-## <Icon name="looks_3" /> Continued Growth 
+## <Icon name="looks_3" />Our Industry is Growing
 
 </Layout>
 
 <Notes>
+
+And with massive growth in AI, IoT,  we'll see it grow to well over 10% within the next 10 years. 
 
 Since 2010, the number of internet users has more than doubled. Global traffic has increased by 25 times. 
-
-</Notes>
-
----
-
-
-<Layout color={DARK_PINK} >
-
-# The Climate Context
-
-## <Icon name="looks_5" /> More Content
-
-</Layout>
-
-<Notes>
 
 And what’s more, page size more than doubled in some cases. 
 
 </Notes>
 
+
 ---
 
 <Layout color={BLACK} image={BG1} >
 
-# Our Story
+# Our Challenge
+
+Our challenge is to divorce the growth of the usage of IT from its impact on the environment.
+
 
 </Layout>
 
-<Notes>
-
-My journey to understanding how I can be a positive force for our world has lead me here, working on how to make the internet and IT more sustainable.  But it isn’t my, or our, whole job - it’s a fundamental part - like security, or performance, or openess might be.  
-
-</Notes>
 
 ---
 
@@ -294,7 +304,6 @@ My journey to understanding how I can be a positive force for our world has lead
 
 ---
 
-
 <Layout>
 
 # W3C Web Sustainability Guidelines
@@ -306,7 +315,6 @@ My journey to understanding how I can be a positive force for our world has lead
 Let's zoom back in a little bit and talk about some practical ways your work can have a positive impact on the environment.
 
 Let's talk about the W3C Web Sustainability Guidelines.
-
 
 </Notes>
 
@@ -322,7 +330,9 @@ The World Wide Web Consortium (W3C) develops standards and guidelines to help ev
 
 <Notes>
 
-I would hazard a guess most of you are at least aware of W3C or the world wide web consortium.  Not to diminish all their other work, but their Web Content Accessibility Guidelines are referenced all over the world.  
+The World Wide Web Consortium (W3C) develops standards and guidelines to help everyone build a web based on the principles of accessibility, internationalization, privacy and security.
+
+You might know them as the organization that published Web Content Accessibility Guidelines. And the WCAG is referenced all over the world and is the standard for accessibility.  
 
 </Notes>
 
@@ -336,7 +346,9 @@ I would hazard a guess most of you are at least aware of W3C or the world wide w
 
 <Notes>
 
-The Web Sustainability Guidelines (WSG) 1.0 explains how to design and implement digital products and services that put people and the planet first. The guidelines are best practices based on measurable, evidence-based research; aimed at end-users, web workers, stakeholders, tool authors, educators, and policymakers.
+The Web Sustainability Guidelines (WSG) 1.0 explains how to design and implement digital products and services that put people and the planet first. 
+
+The guidelines are best practices based on measurable, evidence-based research; aimed at end-users, web workers, stakeholders, tool authors, educators, and policymakers.
 
 </Notes>
 
@@ -350,13 +362,11 @@ The Web Sustainability Guidelines (WSG) 1.0 explains how to design and implement
 
 <Notes>
 
-The guidelines are great in a way that highlight a holistic view of concerns including more than just co2 - environmental impact is much more
+The guidelines are holistic.
 
-- they address power on both server and client
-e -waste - again both server and client
-Water, as it pertains to cooling, is an important concern
-Digital and digital transformation as a way to eliminate need for Paper and printing
-And also carbon traps - like you and me - and all the other factors that go in to producing digital products
+They focus on Power, e-Waste, Water and Carbon traps. 
+
+Carbon traps are things like dark data, the carbon footprint of the supply chain - the supply chain of digital products being people, offices, advertizing, and everything else that isn't related to the power consumption or embedded carbon of the device itself. 
 
 
 </Notes>
@@ -375,38 +385,13 @@ And also carbon traps - like you and me - and all the other factors that go in t
 The guidelines were written with specific audiences in mind:
 
 
-They’re very practically useful for people in the industry. These people are us, and our customers.
+They’re very practically useful for people in the industry. These people are us, and our stakeholders and customers.
 
-But our work and our customers work, will, in-turn raise awareness. 
+But our work will, in-turn raise awareness. Esp if we're building tools that are helping users gain efficiency and reduce their carbon footprint.
 
-But we have to be mindful that standards will create basis for regulations. We saw it with WCAG and accessibility laws. As orgs build compliance to laws, we see it propagate into procurement policies.  Unlike accessibility, which ended up really having no teeth outside govt, I think we’re going to see sustainability-laws be a lot more stringent and impactful on the private sector. We know already sustainability is extremely important to our customers - perhaps lead in this case by private sector - they’re all going to get hit with sustainability laws.  Manufacturing, CPG, shipping laws all aside - we’re already seeing digital and IT sustainability laws emerge.
+And we have to be mindful that standards will create basis for regulations. We saw it with WCAG and accessibility laws. As orgs build compliance to laws, we see it propagate into procurement policies.  
 
-</Notes>
-
----
-
-<Layout >
-
-# Four categories
-
-- **User experience design**: Research and ideation, journey design, content and assets, and quality assurance.
-- **Web development**: Development sustainability, code optimization, coherence, and security.
-- **Hosting, Infrastructure, and Systems**: Environment commissioning, minimizing environment and data, and minimizing human disruption.
-- **Business Strategy and Product Management**: Reporting, disclosure, strategy, and policies from both an organizational and website and product level.
-
-</Layout>
-
-<Notes>
-
-Let’s have a closer look at the guidelines. 
-
-They’re broken down into 4 categories:
-User experience design
-WEb development
-Hosting, Infrastructure, and Systems
-Business Strategy and Product Management
-
-I’ll go a little deeper into each one in just a minute. 
+I think we’re going to see digtial and IT sustainability laws start to emnerge and they're going to be more strict and impactful. 
 
 </Notes>
 
@@ -416,6 +401,7 @@ I’ll go a little deeper into each one in just a minute.
 
 # Stats
 
+- 4 Categories - UX, Dev, Hosting, Business
 - 94 Guidelines
 - 232 Success Criteria
 - many more resources and examples
@@ -442,16 +428,6 @@ Theres Impact, Effort, benefits. GRI reporting alignment.  Examples and resource
 
 ---
 
-<Layout color={WHITE} >
-
-
-<Image src={AllTheGuidelines} style={{ height: "600px", width: "1200px" }} />
-
-
-</Layout>
-
----
-
 <Layout color={DARK_BLUE}>
 
 # User Experience and Design
@@ -466,8 +442,21 @@ Theres Impact, Effort, benefits. GRI reporting alignment.  Examples and resource
 
 <Notes>
 
-Example: 2.26 Analyze The Performance Of The Visitor Journey
-…ethically measure how efficient a visitor's experience is, … and reduce the energy burden of loading unnecessary page … only collect the data required to provide a streamlined and effective user-journey
+Research and ideation, journey design, content and assets, and quality assurance.
+
+If you’re building apps or tools, there are a lot of guidelines for content and design considerations
+
+
+Example: Analyze The Performance Of The Visitor Journey
+
+- ethically measure how efficient a visitor's experience is
+- reduce the energy burden of loading unnecessary page
+- only collect the data required to provide a streamlined and effective user-journey
+
+
+Other examples:
+- Use Recognized Design Patterns
+- Avoid manipulative patterns
 
 </Notes>
 
@@ -477,23 +466,31 @@ Example: 2.26 Analyze The Performance Of The Visitor Journey
 
 # Web Development
 
-## Development sustainability, code optimization, coherence, and security.
+## Development sustainability, code optimization, and security.
 
-- Mostly speaks to client-side technologies, empowering customers to build and test with technologies like Lighthouse would be valuable
-- Building performance and sustainability testing into CI/CD, and operationalizing performance measurement
+- Mostly speaks to client-side technologies
 - Building for security 
+- Taking this further: Building performance and sustainability testing into CI/CD, and operationalizing performance measurement
 
 </Layout>
 
 <Notes>
 
+Green software practices, code optimization, focussing mainly on client side technologies. 
+
+Taking this further: Building performance and sustainability testing into CI/CD, and operationalizing performance measurement
+
+
 Example: 3.17 Manage Dependencies Appropriately
-…JavaScript … can cause very high emissions in terms of CPU load due to the rendering process…  check for unused dependencies,  keep dependencies up to date
+- on the client side, larger javascript package size and large downloads can cause very high emissions in terms of CPU load due to the rendering process
+- check for unused dependencies
+- keep dependencies up to date - up to date software is more secure and more efficient
 
-https://bundlephobia.com/
-
-https://pkg-size.dev/
-
+Other examples being: 
+- Minify Your HTML, CSS, and JavaScript
+- Use Code-Splitting Within Projects
+- Use Metadata Correctly
+- Ensure Your Scripts Are Secure
 
 </Notes>
 
@@ -516,8 +513,24 @@ https://pkg-size.dev/
 
 <Notes>
 
+Environment commissioning, minimizing environment and data, and minimizing human disruption.
+
+- Rightsizing, automation, batch processing
+- Sustainable data practices, only keeping what’s needed
+- Minimize transfer, use edge computing
+- Async processing and computing
+- Being carbon aware
+
+
 Example: 4.5 Limit Usage Of Additional Environments
+
 Decommission or switch off additional environments, such as testing, staging
+
+Other examples being:
+- Choose a Sustainable Hosting Provider
+- Optimize brower caching
+- Automate
+
 
 </Notes>
 
@@ -538,11 +551,17 @@ Decommission or switch off additional environments, such as testing, staging
 
 <Notes>
 
-Example: Set Sustainability Goals
+Reporting, disclosure, strategy, and policies from both an organizational and website and product level.
 
-Example: 5.5 Estimate A Product Or Service's Environmental Impact
-Conduct a full life-cycle Analysis (LCA) based on the functional unit (ex. per workload, per API call, per user)
-Software Carbon Intensity considers power consumed (server and client) plus embedded carbon 
+- Speaks to the business of building and operating a digital product
+
+Examples being: 
+
+- Have an Ethical and Sustainability Product Strategy
+- Define Clear Organizational Sustainability Goals and Metrics
+- Implementing sustainability onboarding training or guidelines
+- Use open-source software
+
 
 </Notes>
 
@@ -553,22 +572,35 @@ Software Carbon Intensity considers power consumed (server and client) plus embe
 
 # Using the Guidelines
 
-- Resources and links in the repo
-- Quick reference
+- Links in this repo
+- Quick reference - look for High Impact with Low and Medium Effort
 
 </Layout>
 
 <Notes>
 
-The guidelines are constructed in way that makes it fairly easy to adopt and use.  There are a number of resources and links in the repo. 
+The guidelines are constructed in way that makes it fairly easy to adopt and use.  The concepts are simple.  There are a number of resources and links in the repo. 
 
-Theres a quick reference guide that works like a checklist. 
+Theres a quick reference guide that works like a checklist.  Start with the High Impact with Low and Medium Effort items and work your way down.
 
 </Notes>
 
 
 ---
 
+<Layout color={DARK_RED}>
+
+# What does a journey look like?
+
+</Layout>
+
+<Notes>
+
+Its going to seem daunting. It's a journey.  And you can start small.  And you can start today. 
+
+</Notes>
+
+---
 
 <Layout color={DARK_RED}>
 
@@ -587,12 +619,7 @@ Theres a quick reference guide that works like a checklist.
 
 If you're just getting started, your first step will be an assessment. You can't improve what you don't measure.   There are a number of tools that can help you understand the carbon impact of your software.  
 
-You might first start to look at CPU, memory, storage usage. Then you will want to take a step further to understand power consumption.
-
-Your cloud providers will have the rudiments of usage reporting and you will have already integrated this into your FinOps dashboard. You can take this a step further and integrate carbon reporting into your FinOps dashboard.  This is called GreenOps.  
-
-GCP has a simple tool called Carbon Sense that will give you a rough estimate of the carbon footprint of your GCP projects.  It's a great place to start. AWS carbon footprint tool is fairly basic too.
-
+For this talk Im just going to hover around client side, but I have something for folks that want more on cloud sustainability. 
 
 </Notes>
 
@@ -620,7 +647,9 @@ GCP has a simple tool called Carbon Sense that will give you a rough estimate of
 
 On the client side...
 
-Lighthouse is a tool built into Google Chrome Dev Tools that will give you a view of the performance of your website.  It will give you a score for performance, accessibility, best practices, SEO.  This is a great tool to help you understand the impact of your website and to help you make decisions about how to optimize it.
+Lighthouse is a tool built into Google Chrome Dev Tools that will give you a view of the performance of your website.  It will give you a score for performance, accessibility, best practices, SEO.  
+
+This is a great tool to help you understand the impact of your website and to help you make decisions about how to optimize it.
 
 </Notes>
 
@@ -649,53 +678,33 @@ My tackaberry.dev site, as you saw on the lighthouse view in the last slide too,
 </Notes> 
 
 
----
+--- 
 
-<Layout color={DARK_RED}>  
-
-
-<Split>
-
-<Image src={WebsiteCarbon} style={{ height: "450px", width: "500px" }} />
-
-
-# Cloud Carbon Footprint
-
-</Split>
-
-</Layout>
-
-<Notes>
-
-Cloud Carbon Footprint is an open source tool that will give you a more detailed view of your cloud infrastructure.  It's a great place to start. It takes a bit of work to get it set up, but it's worth it. It works from Cost and Usage Reports (CUR) that are downloaded and transformed or you can integrate directly.  It will give you a detailed view of your cloud infrastructure and the carbon footprint of each component.  It will also give you a view of the carbon footprint of your cloud infrastructure over time.  This is a great tool to help you understand the impact of your cloud infrastructure and to help you make decisions about how to optimize it.
-
-</Notes> 
-
----
-
-
-<Layout color={DARK_RED}>
+<Layout color={DARK_BLUE}>
 
 # 2. Education and awareness
 
-- Resources in repo
 - Green Software Foundation has great training
-- Find some allies around the office
+- Find some support around the office or stakeholders
 
 </Layout>
 
 <Notes>
+
+The next step in your journey will be to educate yourself and your team.  There are a number of great resources out there.  The Green Software Foundation has some great training.
+
+You also might have to build some awareness with others on your team, or with owners or other stakeholders.  You might have to build a business case.
 
 </Notes>
 
 ---
 
-<Layout color={DARK_RED}>
+<Layout color={DARK_YELLOW}>
 
-# 3. Software and Infrastructure
+# 3. Do the work
 
-- Find the easy wins
-- Green Hosting
+- Find the easy wins - High Impact, Low Effort 
+- Can you move to Green Hosting
 - Eliminate dark data
 - Optimize front end
 
@@ -703,35 +712,49 @@ Cloud Carbon Footprint is an open source tool that will give you a more detailed
 
 <Notes>
 
+The start to do the work.
+
+- Find the easy wins - High Impact, Low Effort 
+- Can you move to Green Hosting?
+- Can you delete duplicate data? Do you have an automated backup procesS?
+- Then, Optimize front end
+
 </Notes>
 
 ---
 
-<Layout color={DARK_RED}>
+<Layout color={DARK_PINK}>
 
-# 4. Integrate into CI/CD
+# 4. Measure and Improve
 
+- Measure and Optimize
 - Continuous improvement
 
 </Layout>
 
 <Notes>
 
+The next step is to start to automate, integrate measurement and improvement into your CI/CD, and start to operationalize performance and sustainability measurement.
+
+And improve. 
+
+
 </Notes>
 
 ---
 
-<Layout color={DARK_RED}>
+<Layout color={DARK_GREEN}>
 
 # 5. Modernize
 
-- Product
-- org
-- Refactor
 
 </Layout>
 
 <Notes>
+
+Lastly, start to modernize. Introduce new sustainability features into your product roadmap. Work through the guidelines.
+
+And fix the planet.  It's that easy. 
 
 </Notes>
 
@@ -739,11 +762,11 @@ Cloud Carbon Footprint is an open source tool that will give you a more detailed
 
 <Layout>
 
-# Cloud native sustainability
+# Cloud Sustainability: A Practical Guide for Building a More Sustainable Internet 
 
-- Nov 28, 2023
-- Data, Security, CI/CD, Open-source, K8s optimization
-- Talking next week
+- Cloud Native Computing Foundation Meetup
+- 6pm - Nov 28, 2023 - Impact Hub Ottawa
+- Data, Security, CI/CD, Open-source, K8s optimization, and more
 
 </Layout>
 
@@ -754,23 +777,11 @@ Cloud Carbon Footprint is an open source tool that will give you a more detailed
 
 ---
 
-<Layout light color={WHITE}>
+<Layout color="BLACK">
 
 <Split>
 
-<Image src={CAT} style={{ height: "600px", width: "600px" }} />
-
-# ClimateAction.tech 
-
-A community of practice of tech workers that provides support and guidance for systemic change in our organisations and industries, to face the climate crisis.
-
-</Split>
-
-</Layout>
-
----
-
-<Layout color="BLACK">
+<Image src={QrCode} style={{ height: "400px", width: "400px" }} /> 
 
 # Thank you 🙏
 
@@ -779,5 +790,7 @@ A community of practice of tech workers that provides support and guidance for s
 - https://github.com/tackaberry
 
 - [This Presentation](https://ottawajs-w3c-web-sustainability-guidelines.tackaberry.dev/)
+
+</Split>
 
 </Layout>
