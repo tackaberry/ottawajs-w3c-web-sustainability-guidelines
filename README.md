@@ -8,9 +8,7 @@ The W3C Web Sustainability Guidelines are a set of best practices for building s
 
 Slides deployed [here](http://ottawajs-w3c-web-sustainability-guidelines.tackaberry.dev/).
 
-## CNCF Event
-
-Related: [Cloud Sustainability: A Practical Guide for Building a More Sustainable Internet](https://community.cncf.io/events/details/cncf-ottawa-presents-kubecon-recap-cncf-sustainability-karpenter-gke-autopilot-and-more/)  and [related repo](https://github.com/tackaberry/cncf-cloud-sustainability)
+CNCF Cloud Sustainability Event: [Cloud Sustainability: A Practical Guide for Building a More Sustainable Internet](https://community.cncf.io/events/details/cncf-ottawa-presents-kubecon-recap-cncf-sustainability-karpenter-gke-autopilot-and-more/)  and [related repo](https://github.com/tackaberry/cncf-cloud-sustainability)
 
 
 ### Resources
