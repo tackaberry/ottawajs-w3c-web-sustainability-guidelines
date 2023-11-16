@@ -2,7 +2,7 @@
 
 ## Ottawa Javascript - Introducing W3C WSGs
 
-**Wednesday, November 13, 2023, 7 - 8PM @ FullScript Offices on Albert**
+**Wednesday, November 15, 2023, 7 - 8PM @ FullScript Offices on Albert**
 
 The W3C Web Sustainability Guidelines are a set of best practices for building sustainable digtial websites, web applications and services. This talk will introduce the guidelines and discuss how they can be applied to your web applications.
 
